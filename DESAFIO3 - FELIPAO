@@ -1,0 +1,36 @@
+class hero {
+    constructor(name, age, typeOfHero){
+        this.name = name;
+        this.age = age;
+        this.typeOfHero = typeOfHero;
+    }
+
+    attack(typeOfHero){       
+        let HeroAttack = "";
+        
+        if (typeOfHero === "lobisomem" || typeOfHero === "lobisomem" || typeOfHero === "lobisomem"){
+            HeroAttack = "magia"
+        
+        } else if(typeOfHero === "Vampiro" || typeOfHero === "Vampiro" || typeOfHero === "Vampiro"){
+            HeroAttack = "espada"
+        
+        } else if(typeOfHero === "FADA" || typeOfHero === "FADA" || typeOfHero === "FADA"){
+            HeroAttack = "artes marciais"
+
+        } else if(typeOfHero === "FAUNO" || typeOfHero === "FAUNO" || typeOfHero === "FAUNO"){
+            HeroAttack = "shuriken"
+            
+        } else{
+            HeroAttack = "Sem ataque";
+
+        }
+        
+        console.log(`O ${typeOfHero} atacou usando ${HeroAttack}`)
+
+    }
+
+}
+
+let testHero = new hero("Testando", 20 , "FADA")
+
+testHero.attack(testHero.typeOfHero)
