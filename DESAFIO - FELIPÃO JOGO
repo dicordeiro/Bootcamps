@@ -1,18 +1,18 @@
 let enumHeroType = {
-  guerreiro: 0,
-  0: "guerreiro",
-  mago: 1,
-  1: "mago",
-  monge: 2,
-  2: "monge",
-  ninja: 3,
-  3: "ninja",
+  vampiro: 0,
+  0: "vampiro",
+  fada: 1,
+  1: "fada",
+  lobisomem: 2,
+  2: "lobisomem",
+  fauno: 3,
+  3: "fauno",
 };
 let enumToAttack = {
-  0: "espada",
+  0: "dentes afiados",
   1: "magia",
-  2: "artes marciais",
-  3: "shuriken",
+  2: "velocidade",
+  3: "encantamentos",
 };
 
 function randomRange(from, to) {
@@ -72,7 +72,7 @@ class gameCharacter {
 }
 
 const players = [gameCharacter.prototype];
-players[0] = new gameCharacter("Junior", 100, 10, 7, enumHeroType.mago);
+players[0] = new gameCharacter("Junior", 100, 10, 7, enumHeroType.fada);
 players[1] = new gameCharacter("DIO", 220, 22, 22);
 
 const enemies = [gameCharacter.prototype];
@@ -86,9 +86,9 @@ while (!allDead) {
 
   for (let player of players) {
     console.log(`player ${player.name} turn\n`);
-    if ((player.indexHeroType = enumHeroType.mago)) {
+    if ((player.indexHeroType = enumHeroType.fada)) {
       player.targetEnemy(enemies, player.strength + randomRange(2, 6));
-    } else if ((player.indexHeroType = enumHeroType.guerreiro)) {
+    } else if ((player.indexHeroType = enumHeroType.vampiro)) {
       player.targetEnemy(enemies, player.strength + randomRange(0, 2));
     } else {
       player.targetEnemy(enemies, player.strength / 3);
@@ -102,9 +102,9 @@ while (!allDead) {
     allDead = true;
     for (let enemy of enemies) {
       console.log(`enemy ${enemy.name} turn\n`);
-      if ((enemy.indexHeroType = enumHeroType.mago)) {
+      if ((enemy.indexHeroType = enumHeroType.fada)) {
         enemy.targetEnemy(players, enemy.strength + randomRange(0, 3));
-      } else if ((enemy.indexHeroType = enumHeroType.guerreiro)) {
+      } else if ((enemy.indexHeroType = enumHeroType.vampiro)) {
         enemy.targetEnemy(players, enemy.strength + randomRange(0, 1));
       } else {
         enemy.targetEnemy(players, enemy.strength / 2);
