@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clinica Neuro</title>
+    <link rel="stylesheet" href="base.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu">
+        <!-- Aqui vai o seu menu -->
+        <ul>
+          <li><a href="/pages/home.html">Home</a></li>
+          <li><a href="/pages/sobre.html">Sobre a clínica</a></li>
+          <li><a href="/pages/horario.html">Horário de Atendimento</a></li>
+          <li><a href="/pages/contato.html">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <div class="header">
+          <img src="/midia/horario.png" />
+        </div>
+
+        <div class="content">
+          <h2><bold>Horários de atendimento</bold></h2>
+          <p>
+            Na Clínica Neuro, oferecemos o atendimento tanto para adultos como para pediatria.
+          </p>
+
+          <table class="table_title">
+            <tbody>
+              <tr>
+                <th>Serviços</th>
+                <th>Segunda a sexta</th>
+                <th>Valor</th>
+              </tr>
+              <tr>
+                <td>Atendimento adulto</td>
+                <td>08h - 19h</td>
+                <td>R$ 450</td>
+              </tr>
+             <tr>
+                <td>Pediatria</td>
+                <td>08h - 19h</td>
+                <td>R$ 500</td>
+                <td>-</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="footer">
+          <h2><bold>Clinica Neuro</bold></h2>
+          <p>Centro Especializado em Neurologia</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
