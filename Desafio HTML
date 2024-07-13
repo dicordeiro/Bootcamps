@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>História da Medicina</title>
+   </head>
+   <body>
+      <h1>História da Medicina</h1>
+      <p>A história da medicina remonta a milhares de anos, desde práticas antigas até os avanços modernos.</p>
+      <h2>Práticas antigas</h2>
+      <p><i>As práticas anteriores incluíam o uso de ervas e rituais religiosos para tratar doentes.</i></p>
+      <h2>Desenvolvimentos modernos</h2>
+      <p><strong>Com o avanço da ciência, a medicina se tornou mais baseada em evidências e tecnologicamente avançada.</strong></p>
+      <h2>Links relacionados:</h2>
+      <ul>
+         <li><a href="https://pt.wikipedia.org/wiki/Hist%C3%B3ria_da_medicina">Wikipedia - História da Medicina</a></li>
+         <li><a href="https://www.ebiografia.com/medicina/">E-biografia - Medicina</a></li>
+         <li><a href="https://www.doctorsaude.com.br/historia-da-medicina">Doctor Saúde - História da Medicina</a></li>
+         <li><a href="https://www.histoportal.com.br/eventos/historia-da-medicina/">Histoportal - História da Medicina</a></li>
+         <li><a href="https://www.sanarmed.com/historia-medicina">Sanar - História da Medicina</a></li>
+      </ul>
+      <hr>
+      <p><small>Fonte: siteXPTO.com</small></p>
+   </body>
+</html>
