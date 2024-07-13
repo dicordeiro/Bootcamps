@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clinica Neuro</title>
+    <link rel="stylesheet" href="base.css" />
+  </head>
+<body>
+  <div class="wrapper">
+    <div class="menu">
+      <!-- Aqui vai o seu menu -->
+      <ul>
+        <li><a href="/pages/home.html">Home</a></li>
+        <li><a href="/pages/sobre.html">Sobre a clínica</a></li>
+        <li><a href="/pages/horario.html">Horário de Atendimento</a></li>
+        <li><a href="/pages/contato.html">Contato</a></li>
+      </ul>
+    </div>
+    
+          <div class="main">
+            <div class="header">
+              <img src="/midia/contato.png" />
+            </div>
+
+            <div class="content">
+                <h2><bold>Contato</bold></h2>
+                <h4>Fale conosco! Assim que possível iremos te retornar</h4>
+
+                <form>
+                  <fieldset>
+                    <legend>Insira aqui seus dados</legend>
+                    <label>Nome:</label>
+                    <input type="text"/><br>
+                    <label>E-mail</label>
+                    <input type="email"/>
+                    </fieldset>
+                    <fieldset>
+                    <legend>Contato</legend>
+                    <label>Assunto:</label>
+                    <input type="text"/><br>
+                    <label>Mensagem</label>
+                    <input type="textarea"/><br>
+                    <button>Enviar</button>
+                    <button>Limpar</button>
+                  </fieldset>
+                </form>
+                <p>Telefone: (11) 3560-2208</p>
+                <p>Celular: (11) 9 5522-6721</p>
+                <p>Endereço: Av Atlantica, 1108, Barra Funda, São Paulo/SP</p>
+                <p>Email: neurologia@dr.diegocordeiro.com.br</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4225.515877084755!2d-46.63563528226505!3d-23.55628481758028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1690222700015!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+              </div>
+      
+              <div class="footer">
+                <h2><bold>Clinica Neuro/bold></h2>
+                <p>Centro Especializado em Neurologia</p>
+              </div>
+            </div>
+          </div>
+        </body>
+      </html>
+      
+</body>
+</html>
