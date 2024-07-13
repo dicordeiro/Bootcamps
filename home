@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clinica Neuro</title>
+    <link rel="stylesheet" href="base.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu">
+        <!-- Aqui vai o seu menu -->
+        <ul>
+          <li><a href="/pages/home.html">Home</a></li>
+          <li><a href="/pages/sobre.html">Sobre a clínica</a></li>
+          <li><a href="/pages/horario.html">Horário de Atendimento</a></li>
+          <li><a href="/pages/contato.html">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <div class="header">
+          <img src="/midia/home.png"/>
+        </div>
+
+        <div class="content">
+          <h2><bold>Clinica Neuro</bold></h2>
+          <h3><i>Centro Especializado em Neurologia</i></h3>
+          <p>
+            A Clínica Neuro é um centro de saúde renomado que
+            oferece atendimento de excelência na especialidade de Neurologia.
+            A Equipe é Coordenada pelo Dr. Diego Cordeiro, sendo altamente qualificada. 
+          </p>
+        </div>
+
+        <div class="footer">
+          <h2><bold>Clinica Neuro</bold></h2>
+          <p>Centro Especializado em Neurologia</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
