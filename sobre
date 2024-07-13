@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clinica Neuro</title>
+    <link rel="stylesheet" href="base.css" />
+  </head>
+<body>
+        <div class="wrapper">
+          <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+              <li><a href="/pages/home.html">Home</a></li>
+              <li><a href="/pages/sobre.html">Sobre a clínica</a></li>
+              <li><a href="/pages/horario.html">Horário de Atendimento</a></li>
+              <li><a href="/pages/contato.html">Contato</a></li>
+            </ul>
+          </div>
+    
+          <div class="main">
+            <div class="header">
+              <img src="/midia/sobre.png" />
+            </div>
+
+            <div class="content">
+                <h2><bold>Sobre</bold></h2>
+                <h3>Clínica Neuro: <i>Cuidando da saúde do seu cérebro</i></h3>
+                <p>
+                Bem-vindo à Clínica Médica Especializada, o seu centro de saúde de confiança que oferece um atendimento excepcional em Neurologia.
+                </p>
+                <h3>Nossas Especialidades:</h3>
+                <p>
+                    <b>Neurologia Clínica</b>: Contamos com médicos altamente qualificados em Neurologia clínica adulto e pediátrico.
+                </p>
+                <p>
+                    <b>Neurocirurgia</b>: Nossos médicos possuem títulos de especialistas em neurocirurgia, atuando nos melhores hospitais.
+                </p>
+
+                <h3>Nossa Estrutura:</h3>
+                <p>
+                    Em nossa clínica, você encontrará instalações modernas e bem equipadas para garantir o melhor cuidado possível. Nossos consultórios são projetados para oferecer conforto e privacidade, proporcionando um ambiente acolhedor durante suas consultas. Além disso, contamos com tecnologia de ponta para diagnósticos precisos e tratamentos de última geração.
+                </p>
+
+                <h3>Compromisso com a Comunidade:</h3>
+                <p>
+                    Acreditamos que a saúde é um direito fundamental, e estamos empenhados em melhorar a qualidade de vida da comunidade. Além de nossos serviços médicos, também promovemos campanhas de prevenção e conscientização sobre questões de saúde relevantes, para que todos possam viver uma vida saudável e plena.
+
+Na Clínica Médica Especializada, sua saúde está em boas mãos. Nossos profissionais dedicados e nossa estrutura de primeira classe estão prontos para oferecer o melhor atendimento possível. Marque sua consulta hoje mesmo e cuide da sua saúde com excelência!
+                </p>
+
+              </div>
+              <div class="footer">
+                <h2><bold>Clinica Neuro</bold></h2>
+                <p>Centro Especializado em Neurologia</p>
+              </div>
+            </div>
+          </div>
+        </body>
+      </html>
+      
+</body>
+</html>
